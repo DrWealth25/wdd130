@@ -1,0 +1,66 @@
+/* Main content styling */
+main {
+  max-width: 840px;
+}
+
+h1 {
+    color: steelblue;
+}
+
+/* Reset default link styles */
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease;
+}
+
+/* Style the nav bar */
+nav {
+  background-color: #1e3a8a; /* Navy blue */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* More specific selector to avoid styling aside image */
+main img {
+  width: 150px;
+  height: auto;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+}
+
+/* Reset padding on paragraphs */
+p {
+  padding: 0;
+}
+
+/* Styling for the aside section */
+aside {
+  width: 20rem;
+  margin: 1rem;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
+}
+
+/* Ensure aspect ratio is maintained for aside image */
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 1em;
+  border-top: 1px solid #000;
+  text-align: center;
+}
+
